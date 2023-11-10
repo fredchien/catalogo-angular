@@ -1,0 +1,26 @@
+.category{
+    margin-top: 20px;
+}
+.category h2{
+    font-size: 72px;
+    font-weight: bold;
+    color: #141718;
+}
+.category h2 span {
+    color: #6C7275;
+}
+.category .single-category{
+    background-color: #F3F5F7;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.category h3{
+    font-size: 32px;
+    color: #000;
+    font-weight: bold;
+}
+.category a{
+    color: #000;
+}

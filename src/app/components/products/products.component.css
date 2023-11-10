@@ -1,0 +1,14 @@
+.arrivals h2{
+    font-size: 44px;
+    font-weight: bold;
+}
+.arrivals a{
+    color: #000;
+    font-weight: bold;
+}
+.produts{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}

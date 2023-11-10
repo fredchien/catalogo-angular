@@ -1,0 +1,25 @@
+.single-product .box-image{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.single-product .box-image button{
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: none;
+    transition: 0.2s;
+    bottom: 30px
+}
+.single-product .box-image:hover button{
+    display: block;
+}
+.single-product p{
+    font-weight: bold;
+    margin: 15px 0;
+}
