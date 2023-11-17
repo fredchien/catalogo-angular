@@ -4,6 +4,11 @@
     align-items: flex-end;
     justify-content: center;
 }
+.single-product .box-image img{
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+}
 
 .single-product .box-image button{
     position: absolute;
@@ -22,4 +27,5 @@
 .single-product p{
     font-weight: bold;
     margin: 15px 0;
+    text-align: center;
 }
