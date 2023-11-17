@@ -6,16 +6,16 @@
         </div>
     </div>
     <div class="row">
-        <div class="produts">
-            <app-product></app-product>
-            <app-product></app-product>
-            <app-product></app-product>
-            <app-product></app-product>
-            <app-product></app-product>
-            <app-product></app-product>
-            <app-product></app-product>
-            <app-product></app-product>
+        <div class="produts" *ngIf="products.length > 0, else noProducts">
+            <div *ngFor="let product of products" class="col-lg-4">
+                <app-product [product]="product"></app-product>
+            </div>
         </div>
     </div>
 </div>
+<ng-template #noProducts>
+    <div class="col-lg-12">
+        <h2>Sem produtos cadastrados</h2>
+    </div>
+</ng-template>
 
